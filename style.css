@@ -1,0 +1,148 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family:"releway",sans-serif;
+}
+body{
+    background-color: #292727;
+}
+
+.couverture{
+    background-image:url("image/ayyy.png");
+    background-position: center;
+    background-size: cover;
+    width:100%;
+    height:200px;
+}
+.couverture .profile img{
+    width:150px;
+    height: 170px;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 20px;
+    border-radius:50%;
+}
+
+.description{
+    margin-top:80px;
+    
+}
+.description h1{
+    color:#fff;
+    text-transform: capitalize;
+    font-weight:bolder;
+    margin-left:20px;
+    font-size:25px;
+
+}
+
+.bord{
+    margin-top:30px;
+    margin-left:10px;
+    
+}
+.bord a{
+    color:#fff;
+    font-size:20px;
+    text-decoration:none;
+    font-weight:bold;
+    background-color: #315ceb;
+    padding:10px 30px;
+    border-radius: 15px;;
+
+
+}
+.story{
+    margin-top:30px;
+    margin-left:10px;
+}
+.story a{
+    color:#dad8d8;
+    font-size:20px;
+    text-decoration:none;
+    font-weight:bold;
+    background-color: #3e3e3f;
+    padding:10px 30px;
+    border-radius: 15px;;
+}
+
+.story #suis{
+    margin-left:5px;
+}
+hr{
+    margin-top:40px;
+    background-color: rgba(119, 118, 118,0.2);
+}
+
+.bienvenue{
+    margin-top: 20px;
+    text-align: center;
+    background-color: #315ceb;
+    width:90%;
+    margin-top:2%;
+    margin-left: 5%;
+    padding:10px;
+    border-radius: 15px;
+    
+}
+.bienvenue h2{
+    color:#fff;
+    text-transform: capitalize;
+
+}
+.bienvenue p{
+    color:#ccccce;
+    font-size: 20px;
+}
+.menu{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+    
+}
+.menu a{
+    text-decoration: none;;
+    font-size:20px;
+    color:#dad8d8;
+    margin-left:20px;
+    border-bottom: 2px solid blue;
+    padding:5px 30px;
+
+
+}
+.menu #will{
+    margin-right:50px;
+}
+.map{
+    margin-top:20px;
+    margin-left:20px;
+    background-color: #3e3e3f;
+    padding:10px;
+    border-radius: 10px;
+    width:90%;
+}
+ .map p{
+    font-size:18px;
+    color:#dad8d8;
+ }
+
+ /*photo*/
+ .album{
+    margin-top:20px;
+    
+ }
+ .album ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+ }
+ .album img{
+    width:200px;
+    height:240px;
+ }
+ 
